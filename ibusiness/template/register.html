@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{%block title%}Login {%endblock%}
+{%block content %}
+<div class="container">
+    <form action="" method="post">
+        <div>{{error}}</div>
+        <div>{{success}}</div>
+        {%csrf_token%}
+        <label>Email: <input type="email" name="email" /></label>
+        <label>Username: <input type="text" name="username" /></label>
+        <label>Password: <input type="password" name="password" /></label>
+        <input type="submit" class="btn btn-large submit-row-btn" value="Submit">
+        <p>Already have an account? <a href="/login">Click to login</a> </p>
+    </form>
+</div>
+{%endblock%}

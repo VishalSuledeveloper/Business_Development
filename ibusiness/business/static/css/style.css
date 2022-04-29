@@ -1,0 +1,31 @@
+.bg-primary{
+background:#477091!important;
+}
+
+.mt20{
+margin-top:20px;
+}
+
+.container-custom{
+width:95%!important;
+margin:auto;
+}
+:root {
+    scroll-behavior: smooth;
+}
+.owl-stage {
+    display: flex;
+    align-items: stretch;
+    gap: 2em;
+}
+.img-container {
+    height: 300px;
+    overflow: hidden;
+}
+
+.owl-nav {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
